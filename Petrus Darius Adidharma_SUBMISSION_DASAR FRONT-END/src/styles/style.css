@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Sigmar+One&family=Spectral:wght@800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(44, 44, 44);
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0;
+}
+
+movie-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    width: 189%;
+    overflow: auto;
+}
